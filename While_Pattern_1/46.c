@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+  int inc=1,total=5,i,y=4,z=1;
+  while(z<=2)
+  {
+  while(inc<=total)
+  {
+    i=1;
+    while(i<=inc)
+    {
+      printf("*");
+      i++;
+    }
+    printf("\n");
+    inc++;
+  }
+  while(y>0)
+  {
+    i=1;
+    while(i<=y)
+    {
+      printf("*");
+      i++;
+    }
+    printf("\n");
+    y--;
+  }
+  z++;
+}
+}

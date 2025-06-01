@@ -1,0 +1,49 @@
+#include<stdio.h>
+int main()
+{
+  int inc=1,t=19,z,i,a=19,s=13,x=1,y=3,g;
+  while(t>0)
+  {
+    if(t==1||t==2||t==3)
+    {
+      while(i<=g)
+      {
+	g=x-y;
+	i=1;
+	printf(" ");
+	i++;
+      }
+      while(i<=s)
+      {
+	printf("*");
+	i++;
+      }
+    }
+    if(t>4)
+    {
+    i=1;
+    z=a-t;
+    while(i<=z)
+    {
+      printf(" ");
+      i++;
+    }
+    i=1;
+    while(i<=x)
+    {
+      printf("*");
+      i++;
+    }
+    }
+  }
+    printf("\n");
+    t--;
+    if(t>4)
+    {
+    x=x-2;
+    }
+    if(t==1||t==2||t==3)
+    {
+      s=s+3;
+    }
+}
